@@ -27,7 +27,7 @@ services:
     working_dir: /app
     ports:
       - 8080:8080
-    environment:                    # ← adicione estas variáveis
+    environment:                 # ← adicione estas variáveis
       - DB_HOST=postgres
       - DB_USER=root
       - DB_PASSWORD=root
